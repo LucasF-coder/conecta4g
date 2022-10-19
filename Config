@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.1",
-  "ReleaseNotes": "Atualizado VIVO.",
+  "Version": "2.1.2",
+  "ReleaseNotes": "Atualizado url.",
   "UrlUpdate": "https://raw.githubusercontent.com/LucasF-coder/conecta4g/main/Config",
   "Sms": "https://raw.githubusercontent.com/LucasF-coder/conecta4g/main/Sms",
   "EmailFeedback": "",
