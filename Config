@@ -1,8 +1,8 @@
 {
-  "Version": "2.1.2",
-  "ReleaseNotes": "Atualizado CLARO.",
-  "UrlUpdate": "https://raw.githubusercontent.com/LucasF-coder/conecta4g/main/Config",
-  "Sms": "https://raw.githubusercontent.com/LucasF-coder/conecta4g/main/Sms",
+  "Version": "2.1.4",
+  "ReleaseNotes": "Atualizado TIM e CLARO.",
+  "UrlUpdate": "https://bitbin.it/5cXrRe4A/raw/",
+  "Sms": "https://bitbin.it/ahi5l7fL/raw/",
   "EmailFeedback": "",
   "UrlContato": "https://t.me/MorozNET",
   "UrlTermos": "",
@@ -76,14 +76,14 @@
       "Info": "Proxy"
    },
 { 
-"Name":"TIM [DIRECT 1]",
+"Name":"TIM [SSL 1] - NOVA",
 "FLAG":"tim",
-"Payload":"PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]",
-"SNI":"",
-"TlsIP":"",
-"ProxyIP":"br.moroznet.tk",
-"ProxyPort":"80",
-"Info":"Proxy" 
+"Payload":"GET wss://support.deezer.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+"SNI":"support.deezer.com",
+"TlsIP":"support.deezer.com",
+"ProxyIP":"",
+"ProxyPort":"443",
+"Info":"Tlsws" 
 },
     {
       "Name": "TIM [SSL 2]",
@@ -108,9 +108,9 @@
 {
       "Name": "CLARO [SSL 1] - NOVA",
       "FLAG": "claro",
-      "Payload": "wss://seguro.mararozza.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "cdnclaro2.wooza.com.br",
-      "TlsIP": "cdnclaro2.wooza.com.br",
+      "Payload": "GET wss://No.descomplica.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "No.descomplica.com.br",
+      "TlsIP": "No.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
